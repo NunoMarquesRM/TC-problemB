@@ -1,9 +1,7 @@
 # problemB
-Course unit: Computation Theory (TC) - Problem B in ocaml
+Course Unit: Computational Theory (CT) - Problem B in Ocaml
 
-Resolution of Problem B in ocaml
-
-# Geração de palavras a partir de gram´aticas
+# Geração de palavras a partir de gramáticas
 
 ## Problema
 
@@ -12,8 +10,8 @@ Resolution of Problem B in ocaml
 
 ## Entrada
 
-  Para simplificar o formatos dos dados em entrada admitiremos aqui que os símbolos não terminais são representadas por nomes (string) começados por maiúsculas e os símbolos terminais são constituídos exclusivamente por minúsculas. Em particular o símbolo inicial será sempre o não-terminal S. Uma produção terá sempre o formato N -> α em que α é uma sequência não vazia de símbolos (terminais ou não-terminais separados por um espaço). Em particular o símbolo é representado pelo carácter _ (underscore).  
-O formato dos dados em entrada é então o seguinte.  
+  Para simplificar o formato dos dados de entrada admitiremos aqui que os símbolos não terminais são representados por nomes (strings) começados por maiúsculas. Os símbolos terminais são constituídos exclusivamente por minúsculas. Em particular o símbolo inicial será sempre o não-terminal S. Uma produção terá sempre o formato N -> α em que α é uma sequência não vazia de símbolos (terminais ou não-terminais separados por um espaço). Em particular o símbolo é representado pelo carácter _ (underscore).  
+O formato dos dados de entrada é então o seguinte:
 Na primeira linha consta o inteiro n que é o inteiro que representa o tamanho máximo das palavras por gerar.  
 Na segunda linha consta um inteiro m que indica quantas produções tem a gramática.  
 As restantes m linhas introduzem as produções da gramática (uma por linha).  
